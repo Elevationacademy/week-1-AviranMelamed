@@ -1,0 +1,73 @@
+#parent {
+   
+    background-color: purple; 
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  border-radius: 5px;
+
+}
+#child1 {
+    margin-left: 5px;
+    height: 60px;
+    width: 20px;
+
+    background-color: red;
+    position: absolute;
+    bottom: 5px;
+   
+   
+}
+#child2 {
+    margin-left: 50px;
+    height: 80px;
+    width: 20px;
+
+    background-color: red;
+    position: absolute;
+    bottom: 5px;
+   
+   
+}
+#child3 {
+    margin-left: 100px;
+    height: 20px;
+    width: 20px;
+
+    background-color: red;
+    position: absolute;
+    bottom: 5px;
+   
+   
+}
+#child4 {
+    margin-left: 150px;
+    height: 10px;
+    width: 20px;
+
+    background-color: red;
+    position: absolute;
+    bottom: 5px;
+   
+   
+}
+#child5 {
+    margin-left: 200px;
+    height: 60px;
+    width: 20px;
+
+    background-color: red;
+    position: absolute;
+    bottom: 5px;
+   
+   
+}
+#time {
+    position: absolute;
+    top: 20;
+}
+#money  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

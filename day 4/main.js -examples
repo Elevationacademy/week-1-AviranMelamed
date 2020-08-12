@@ -1,0 +1,49 @@
+
+// example 1
+// const greet = function(name){
+//     console.log("Hello there, " + name)
+//   }
+//   const names = ["Mr. Woods", "Sir Newton", "Lady Gamora", "Her Highness Kayla", "Master Shen", "Squire Carl", "The Eternal Brittany"]
+
+//   for(let n of names){
+//     greet(n)
+//   }
+//     example 2
+// const growOld = function(user){
+//     user.age++
+//   }
+  
+//   const aDude = {name:"Ayd Ood", age: 23}
+//   growOld(aDude)
+  
+//   console.log(aDude) // prints {name: "Ayd Ood", age: 24}
+  
+// example 3
+// const changeArray = function(arr){
+//     let innerArray = arr
+//     innerArray[0] = 50
+//   }
+  
+//   const numbers = [1, 2, 3]
+  
+//   changeArray(numbers)
+//   console.log(numbers) // prints [50, 2, 3]
+  
+// example 4
+// const add = function(x, y){
+//     return x + y
+//   }
+  
+//   const sum = add(1, 2)
+//   console.log(sum) // prints 3 !
+
+  greet() //works without a problem
+greetExpression() //throws an error
+
+function greet(){
+  console.log("Hello there, from the wild, wild West")
+}
+
+const greetExpression = function(){
+  console.log("Uh oh")
+}
